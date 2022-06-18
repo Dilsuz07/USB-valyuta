@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import NumberFormat from "react-number-format";
 
+
+const BasaURL = 'https://api.exchangeratesapi.io/latest'
+
 function App() {
   const [preState, setPreState] = useState("");
   const [curState, setCurState] = useState("");
